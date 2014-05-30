@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Questions" >
+
+     <TextView
+	    android:id="@+id/tvt"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/disclaimer"
+	    android:textSize="25sp" />
+    
+     <Button
+         android:id="@+id/nb"
+         android:layout_below="@id/tvt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="swap"
+         android:text="Continue"
+         android:textSize="20sp" >
+</Button>
+
+	   
+</RelativeLayout>
+</ScrollView>
